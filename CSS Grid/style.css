@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*------- To select multiple classes at the same time ---------
+----------------- seperate the classes using ","--------------- */
+.container {
+  display: grid;
+  gap: 10px 40px; /* gap is shorthand for row and column gap */
+  padding: 10px;
+  grid-template-areas:
+    "a a a a"
+    "b b c c"
+    "d d e e";
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  border: 2px red solid;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: a;
+}
+
+.box2 {
+  grid-area: b;
+}
+
+.box3 {
+  grid-area: c;
+}
+
+.box4 {
+  grid-area: d;
+}
+.box5 {
+  grid-area: e;
+}
