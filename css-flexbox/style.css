@@ -62,11 +62,10 @@ body {
   border-radius: 6px;
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 430px) {
   body {
     font-size: small;
   }
-
   .wrapper {
     padding: 40px 20px;
     margin: 100px 20px;
