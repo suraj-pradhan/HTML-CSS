@@ -13,19 +13,20 @@ body {
   font-style: normal;
 }
 
-/*------- To select multiple classes at the same time ---------
------------------ seperate the classes using ","--------------- */
 .container {
   display: grid;
-  gap: 10px 40px; /* gap is shorthand for row and column gap */
+  gap: 20px;
   padding: 10px;
   grid-template-areas:
     "a a a a"
     "b b c c"
-    "d d e e";
+    "d d d d"
+    ". e e .";
 }
 
-.box1,
+/*------- To select multiple classes at the same time ---------
+----------------- seperate the classes using ","--------------- */
+
 .box2,
 .box3,
 .box4,
@@ -35,10 +36,9 @@ body {
   padding: 8px;
 }
 
-.box1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.heading {
+  text-align: center;
+  font-size: large;
   grid-area: a;
 }
 
