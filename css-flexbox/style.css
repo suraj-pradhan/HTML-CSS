@@ -58,7 +58,7 @@ body {
 .box2,
 .box3 {
   border: 3px salmon solid;
-  padding: 10px;
+  padding: 6px 12px;
   border-radius: 6px;
 }
 
