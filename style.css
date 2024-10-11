@@ -11,7 +11,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  background: rgb(39, 44, 44);
+  background: #181a1b;
   color: white;
 }
 
@@ -59,7 +59,7 @@ body {
   );
   z-index: -1;
   border-radius: 7px;
-  animation: rotation 1s linear infinite;
+  animation: rotation 3s linear infinite;
 }
 
 .heading-text {
@@ -76,5 +76,5 @@ body {
 }
 
 .custom-link:after {
-  filter: blur(0.18rem);
+  filter: blur(0.15rem);
 }
