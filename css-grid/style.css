@@ -33,7 +33,7 @@ body {
 .box3,
 .box4,
 .box5 {
-  border: 2px red solid;
+  border: 2px darkorange solid;
   border-radius: 8px;
   padding: 8px;
 }
