@@ -27,11 +27,21 @@ body {
   cursor: pointer;
 }
 
+.accordion-heading {
+  font-size: x-large;
+  margin: 20px 0;
+}
+
 .question {
   color: darkorange;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.question-text {
+  font-size: large;
+  margin: 10px 0;
 }
 
 .answer {
