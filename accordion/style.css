@@ -40,13 +40,13 @@ body {
   transition: max-height 0.2s;
 }
 
-.answer.active {
-  max-height: fit-content;
-}
-
 .icon {
   margin-right: 6px;
   transition: transform 0.2s;
+}
+
+.icon.active {
+  transform: rotate(-180deg);
 }
 
 @media screen and (max-width: 431px) {
