@@ -54,4 +54,7 @@ body {
     font-size: small;
     padding: 10px;
   }
+  .accordion {
+    padding: 10px 20px;
+  }
 }
