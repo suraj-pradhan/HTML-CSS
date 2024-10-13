@@ -8,18 +8,19 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 460;
   font-style: normal;
   background: #181a1b;
   color: white;
   padding: 100px;
   display: grid;
   place-content: center;
+  line-height: 1.4rem;
 }
 
 .accordion {
   background: rgb(36, 36, 36);
-  padding: 10px 40px;
+  padding: 20px 40px;
   border: 2px rgb(43, 43, 43) solid;
   border-radius: 10px;
   max-width: 60rem;
@@ -61,7 +62,7 @@ body {
 
 @media screen and (max-width: 431px) {
   body {
-    font-size: small;
+    font-size: 14px;
     padding: 10px;
   }
   .accordion {
@@ -72,7 +73,7 @@ body {
     margin: 20px 5px;
   }
   .question-text {
-    font-size: small;
+    font-size: 14px;
     margin: 10px 0px;
   }
 }
