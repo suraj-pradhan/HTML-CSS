@@ -13,6 +13,8 @@ body {
   background: #181a1b;
   color: white;
   padding: 100px;
+  display: grid;
+  place-content: center;
 }
 
 .accordion {
