@@ -16,8 +16,6 @@ body {
 }
 
 .accordion {
-  display: grid;
-  place-content: center;
   background: rgb(36, 36, 36);
   padding: 10px 40px;
   border: 2px rgb(43, 43, 43) solid;
