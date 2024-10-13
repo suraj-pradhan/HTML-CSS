@@ -29,7 +29,7 @@ body {
 
 .accordion-heading {
   font-size: x-large;
-  margin: 20px 0;
+  margin: 20px 5px;
 }
 
 .question {
@@ -66,5 +66,13 @@ body {
   }
   .accordion {
     padding: 10px 20px;
+  }
+  .accordion-heading {
+    font-size: large;
+    margin: 20px 5px;
+  }
+  .question-text {
+    font-size: small;
+    margin: 10px 0px;
   }
 }
